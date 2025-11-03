@@ -1,0 +1,23 @@
+{
+  "name": "bff-hono",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch src/index.ts",
+    "build": "tsc",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@better-auth/utils": "^0.3.0",
+    "@hono/node-server": "^1.19.5",
+    "@libsql/client": "^0.15.15",
+    "dotenv": "^17.2.3",
+    "drizzle-orm": "^0.44.7",
+    "hono": "^4.10.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.17",
+    "drizzle-kit": "^0.31.6",
+    "tsx": "^4.7.1",
+    "typescript": "^5.8.3"
+  }
+}
